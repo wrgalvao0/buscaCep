@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCA CEP</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="w-100 vh-100 d-flex justify-content-center align-items-center ">
+        <div class="w-50">
+            <div class="d-flex flex-column">
+                <h1 class="text-center">BUSCA CEP</h1>
+                <form class="d-flex justify-content-center gap-1" action="">
+                    <input id="cep" type="text" placeholder="Digite o cep">
+                    <button type="button" onclick="validarCep()">Consultar</button>
+                    <button type="button" onclick="limparDados()">Limpar</button>
+                </form>
+            </div>
+            <div id="endereco" class="d-flex flex-column" style="display:none">
+                <p>Logradouro: <span id="logradouro"></span> </p>
+                <p>Bairro: <span id="bairro"></span> </p>
+                <p>Complemento: <span id="complemento"></span></p>
+                <p>Cidade: <span id="cidade"></span> </p>
+                <p>Estado: <span id="estado"></span> </p>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
