@@ -1,0 +1,6 @@
+FROM nginx
+COPY . /usr/share/nginx/html
+
+docker build -t buscacep
+
+docker run -p 8080:80 buscacep
