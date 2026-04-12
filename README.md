@@ -107,4 +107,4 @@ Este projeto é de código aberto e pode ser utilizado livremente.
 
 ---
 
-**Desenvolvido por [Wrgalvão](https://github.com/wrgalvao0)**
+**Desenvolvido por [wrgalvao](https://github.com/wrgalvao0)**
